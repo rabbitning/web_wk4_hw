@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃裕恒的Vegetables</title>
+    <link rel="shortcut icon" href="./img/carrot.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all_style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/login_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top_box">
+                <span class="title">Vegetables</span>
+                <div class="corner_btns">
+                    <a href="https://www.facebook.com/" target="_blank" class="icon">
+                        <img src="./img/btn_facebook.png">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="icon">
+                        <img src="./img/btn_instagram.png">
+                    </a>
+                    <div class="vertical_line"></div>
+                    <a href="./index.html" class="home_btn btn">HOME</a>
+                </div>
+            </div>
+            <div class="horizontal_line"></div>
+        </header>
+        <main>
+            <h1 class="sub_title dark_bg">登入</h1>
+            <form action="#">
+                <div>
+                    <input type="text" class="input_box" required pattern="[a-zA-Z0-9_]" minlength="6" maxlength="15"
+                        placeholder="帳號"></input>
+                </div>
+                <div>
+                    <input type="password" class="input_box" required pattern="[a-zA-Z0-9]" minlength="6" maxlength="15"
+                        placeholder="密碼"></input>
+                </div>
+                <div class="remember_me_box">
+                    <input type="checkbox" id="remember_me"></input>
+                    <label for="remember_me">記住我</label>
+                </div>
+                <div class="not_robot_box">
+                    <input type="checkbox" id="not_robot"></input>
+                    <label for="not_robot">我不是機器人</label>
+                    <img src="./img/not_robot.PNG" class="img_nrb">
+                </div>
+                <input type="submit" value="登入" class="sub_btn dark_bg"></input>
+                <div class="help">
+                    <a href="#" class="s_text">忘記密碼?</a>
+                    <div class="vertical_line"></div>
+                    <span class="s_text">沒有帳號?&nbsp;
+                        <a href="./join.html">建立帳號</a>
+                    </span>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="footer dark_bg s_text">Copyrights 2017 Vegetables cise / Design by Vegetables</footer>
+</body>
+
+</html>
