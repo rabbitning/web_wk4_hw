@@ -22,15 +22,22 @@
     justify-content: center;
     align-items: center;
     height: 80%;
-    padding: 0 30px;
-    color: #EDF2C5;
+    width: 15%;
     transition: 0.2s linear;
 }
 
 .nav_item:hover {
-    background-color: #d7e090;
+    background-color: #edf88a;
     color: #778A50;
-    padding: 0 60px;
+    width: 20%;
+}
+
+.nav_item_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .nav_sublist {
